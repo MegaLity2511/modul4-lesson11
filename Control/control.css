@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1240px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn:hover {
+  cursor: col-resize;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  padding-inline: 20px;
+  box-shadow: 0 3px 3px 0 orange;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+#login::backdrop {
+  background-color: #898989b3;
+}
+
+.login-title {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  color: orange;
+}
+
+.protect-from-xakers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-block: 0;
+}
+
+.email {
+  width: 100%;
+  height: 40px;
+  padding-inline: 10px;
+  border: none;
+  background-color: rgb(227, 244, 255);
+  border-radius: 10px;
+}
+
+.password {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-inline: 10px;
+  border: none;
+  background-color: rgb(227, 244, 255);
+  border-radius: 10px;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: right;
+  margin-block: 0;
+  margin-top: 3px;
+  color: orange;
+  text-decoration-color: white;
+}
+
+.forget-password:hover {
+  text-decoration-color: orange;
+}
+
+.sign-in {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  text-decoration-line: none;
+  color: white;
+  transition: border 0.5s linear, background-color 0.5s linear, color 0.5s linear;
+}
+
+.sign-in:hover {
+  border: 1px solid orange;
+  background-color: white;
+  color: orange;
+}
